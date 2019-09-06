@@ -13,11 +13,11 @@ This package is available on pub.dev:
 ##HOW TO USE?
 
 Add this to your package's pubspec.yaml file:
-
+```yaml
 dependencies:
   easy: 
-  
-  
+```
+
 Import it:
 
 ```dart
