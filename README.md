@@ -1,5 +1,5 @@
 # Easy
-An easy Flutter state managegement that allows minimal rebuild of widgets and improves performance.
+An easy Flutter state management that allows minimal rebuild of widgets and improves performance.
 
 ## Getting Started
 
