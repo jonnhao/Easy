@@ -1,10 +1,6 @@
 # Easy
 An easy Flutter state managegement that allows minimal rebuild of widgets and improves performance.
 
-# easy
-
-An easy Flutter state managegement that allows minimal rebuild of widgets and improves performance.
-
 ## Getting Started
 
 This package is available on pub.dev:
