@@ -1,0 +1,18 @@
+name: easy
+description: An easy Flutter state managegement that allows minimal rebuild of widgets and improves performance.
+version: 1.1.2
+author: Jonny Borges <jonataborges01@gmail.com>
+homepage: https://github.com/JonnyBorges/Easy
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:

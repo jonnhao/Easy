@@ -1,11 +1,6 @@
 # Easy
 An easy Flutter state management that allows minimal rebuild of widgets and improves performance.
 
-## Getting Started
-
-This package is available on pub.dev:
-[package](https://pub.dev/packages/easy),
-
 ##HOW TO USE?
 
 Add this to your package's pubspec.yaml file:
@@ -17,7 +12,7 @@ dependencies:
 Import it:
 
 ```dart
-import 'package:easy/easy.dart';
+import 'easy_bloc.dart';
 ```
 
 Add EasyManager and your state class to Main:
@@ -51,9 +46,9 @@ class AppBloc extends EasyBloc {
 ```
 
 With Easy, any variable you put into your EasyBloc class will be accessible through the Widget Store. 
-And to call any function or method within your EasyBloc class you just need to call "EasyState.of<T>(context, listen: false)" with the method.
+And to call any function or method within your EasyBloc class you just need to call ```dart "EasyState.of<T>(context, listen: false)"``` with the method.
 
-You can call "EasyState.of<T>(context, listen: false)" in building your widget like this:
+You can call ```dart "EasyState.of<T>(context, listen: false)" ``` in building your widget like this:
 
 Example:
 ```dart
@@ -161,7 +156,7 @@ You can amazingly increment the counter number of both screens!
 That is all? No. You in addition to performing functions you can inject values from anywhere in your code.
 
 This is made possible by the injection methods incorporated in Easy.
-Easy natively accepts Strings, int, Map, List, bool, double and dynamic for injection. Simply override any inject method on your EasyBloc.
+Easy natively accepts Strings, int, Map, List, bool, double and dynamic for in Simply override any inject method on your EasyBloc.
 
 Example with int:
 
