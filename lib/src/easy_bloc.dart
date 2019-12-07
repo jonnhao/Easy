@@ -4,38 +4,13 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
 
 abstract class EasyBloc extends ChangeNotifier {
-  void touch() {
+   void exec() async {
     notifyListeners();
   }
 
-  void injectString(String string) {
+  void inject(value) async {
     notifyListeners();
   }
-
-  void injectInt(int integer) {
-    notifyListeners();
-  }
-
-  void injectList(List list) {
-    notifyListeners();
-  }
-
-  void injectMap(Map map) {
-    notifyListeners();
-  }
-
-  void injectBool(bool boolean) {
-    notifyListeners();
-  }
-
-  void injectDouble(double float) {
-    notifyListeners();
-  }
-
-  void injectDynamic(dynamic variable) {
-    notifyListeners();
-  }
-
   void dispose();
 }
 
